@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point  
- * Description: Prints sized of characters 
+ * main - Prints sized of characters 
  * Return: 0
  */
 
