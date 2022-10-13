@@ -1,12 +1,10 @@
 #include <stdio.h>
 
 /*
- * main: program entry point 
- * desc: print Programing is like.... text
+ * main: Entry point for program
+ * description: Print some txt
  * return: 0
- *
  */
-
 
 int main(void)
 {
