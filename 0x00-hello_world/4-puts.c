@@ -2,7 +2,7 @@
 
 /*
  * main: Entry point for program
- * description: Print some txt
+ * description: "Programming is like building a multilingual puzzle
  * return: 0
  */
 
