@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/*
+ * main: program entry point 
+ * desc: print Programing is like.... text
+ * return: 0
+ *
+ */
+
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
