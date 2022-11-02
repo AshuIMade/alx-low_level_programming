@@ -46,7 +46,6 @@ int pal(char *s, int i, int len)
 /**
  * is_palindrome - check if the string is a palindrome ex ala.
  * @s: original string
- * 
  * Return: 1 if is alindrome otherwise 0.
  */
 
