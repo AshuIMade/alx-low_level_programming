@@ -94,8 +94,7 @@ char **strtow(char *str)
 			for (j = 0; j < numChars; j++)
 			{
 				*(*(words + i) + j) = *str;
-				str++;
-		       	}
+				str++; }
 			*(*(words + i) + j) = '\0';
 			i++;
 		}
