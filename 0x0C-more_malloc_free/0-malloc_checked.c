@@ -10,6 +10,7 @@
 void *malloc_checked(unsigned int b)
 {
 	void *memLoc;
+
 	memLoc = malloc(b);
 	if (memLoc == NULL)
 		exit(98);
