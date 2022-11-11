@@ -12,6 +12,7 @@ int *array_range(int min, int max)
 {
 	int *newArray;
 	int i, length;
+
 	if (min > max)
 		return (NULL);
 	length = max - min + 1;
