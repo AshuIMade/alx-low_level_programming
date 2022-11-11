@@ -6,7 +6,6 @@
  *
  * Return: the string initialized.
  */
-
 void *malloc_checked(unsigned int b)
 {
 	void *memLoc;
