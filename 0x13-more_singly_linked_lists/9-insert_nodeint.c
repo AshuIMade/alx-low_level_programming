@@ -13,6 +13,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 
 	listint_t *node_index = *head;
 	listint_t *new_node, *node_after;
+
 	if (head == NULL || *head == NULL)/*Ask if there is not input*/
 		return (NULL);
 	for (nodes = 0; node_index != NULL; nodes++)/*Count the num of nodes*/
