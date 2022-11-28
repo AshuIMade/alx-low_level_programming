@@ -16,15 +16,19 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 
 	if (head == NULL || *head == NULL)/*Ask if there is not input*/
 		return (NULL);
+
 	for (nodes = 0; node_index != NULL; nodes++)/*Count the num of nodes*/
 		node_index = node_index->next;
 	if (idx > (nodes + 1))/*Allows insert until after-last node*/
 		return (NULL);
+
 	node_index = *head;
+
 	new_node = malloc(sizeof(listint_t));/*allocate and fill the new node*/
 	if (new_node == NULL)
 		return (NULL);
 	new_node->n = n;
+
 	if (idx == 0)
 	{
 		new_node->next = *head;
