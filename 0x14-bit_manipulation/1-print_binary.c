@@ -12,6 +12,7 @@ void print_binary(unsigned long int n)
 
 	if (n == 0)
 		_putchar('0');
+
 	temp = n;
 	for (j = 0; temp != 0; j++)/*Ignoring left-zeros*/
 		temp = temp >> 1;
