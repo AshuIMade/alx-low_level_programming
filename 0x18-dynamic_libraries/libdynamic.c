@@ -86,9 +86,15 @@ unsigned int _strspn(char *s, char *accept)
 	return 0;
 }
 
-char *_strpbrk(char *s, char *accept);
+char *_strpbrk(char *s, char *accept)
+{
+	return s;
+}
+char *_strstr(char *haystack, char *needle)
+{
+	return haystack;
+}
 
-char *_strstr(char *haystack, char *needle);
 int _putchar(char c)
 {
 	putchar(c);
